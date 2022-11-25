@@ -1,0 +1,39 @@
+.advice {
+    max-width: 375px;
+    padding: 1.5rem 1rem;
+    background: $dark-grayish-blue;
+    position: relative;
+    text-align: center;
+    border-radius: 1rem;
+
+    &__number {
+        color: $neon-green;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    &__quote {
+        margin: 1.5rem 0;
+        color: $light-cyan;
+        font-size: 28px;
+    }
+
+    &__generator {
+        position: absolute;
+        background: $neon-green;
+        border: none;
+        display: grid;
+        place-items: center;
+        width: 4rem;
+        height: 4rem;
+        border-radius: calc(4rem /2);
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+    }
+
+    &__devider {
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+}
