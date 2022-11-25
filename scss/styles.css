@@ -9,10 +9,11 @@
 body {
   font-family: "Manrope", sans-serif;
   height: 100vh;
+  overflow: hidden;
   background: hsl(218deg, 23%, 16%);
   display: grid;
   place-items: center;
-  margin: 0 1rem;
+  margin: 0 1.25rem;
 }
 
 .attribution {
